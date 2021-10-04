@@ -1,5 +1,14 @@
-package baseline.baseline;
-
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Gialam Tran
+ */
+package baseline;
+/*
+Ask for 2 strings
+Compare the 2 to see if number is character match
+Compare the 2 to see if the characters are the same
+Output whether it's an anagram or not
+ */
 import java.util.*;
 
 public class Solution24 {
@@ -35,7 +44,7 @@ public class Solution24 {
         if(isAnagram(str1,str2))
             System.out.println(str1 + " and " + str2 + " are anagrams");
         else
-            System.out.println(str2 + " and " + str2 + " are not anagrams");
+            System.out.println(str1 + " and " + str2 + " are not anagrams");
 
 
     }

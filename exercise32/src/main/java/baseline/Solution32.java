@@ -1,5 +1,23 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 package baseline;
-
+/*
+Ask for the level of difficulty
+    Level 1 = 1-10
+    Level 2 = 1-100
+    Level 3 = 1-1000
+Randomize the number that is being guessed
+Ask for their guess
+Compare the guess and their guess
+If too low
+    Output their guess is too low
+If too high
+    Output their guess is too high
+If correct
+    Output the number of guesses they took and that they got it right.
+ */
 public class Solution32
 {
     public static void main(String[] args)

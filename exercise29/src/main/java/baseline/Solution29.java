@@ -1,7 +1,15 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 package baseline;
 
 import java.util.Scanner;
-
+/*
+Ask for an input
+Verify that it is a number and is higher than 0
+Either ask for another input or output result
+ */
 public class Solution29
 {
     private static Scanner in = new Scanner(System.in);
@@ -19,7 +27,7 @@ public class Solution29
             // catches any invalid input (r = 0)
             try
             {
-                System.out.print("What is the rate of return ");
+                System.out.print("What is the rate of return: ");
                 r = in.nextInt();
             }
             catch(Exception e)
@@ -29,7 +37,7 @@ public class Solution29
             }
             if(r == 0)
             {
-                System.out.print("Sorry. That's not a valid input.\n");
+                System.out.print("Sorry. 0 is not a valid input.\n");
             }
         }
         // calculate number of years via aux function

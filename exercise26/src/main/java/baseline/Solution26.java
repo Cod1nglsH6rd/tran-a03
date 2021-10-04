@@ -1,18 +1,24 @@
 /*
- *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
  *  Copyright 2021 Gialam Tran
  */
 
 package baseline;
 import java.util.Scanner;
-
+/*
+Ask for input
+    Balance
+    APR
+    Monthly Payment
+Calculate the amount of months it would take to pay off debt with given formula
+Output Statement
+ */
 public class Solution26 {
     public static void main(String args[])
     {
         paymentCalculator calculator = new paymentCalculator();
         Scanner in = new Scanner(System.in);
-        double months;
-        double balance, APR, monthlyPayment;
+        double balance, APR;
 
         System.out.print("What is your balance? ");
         balance = in.nextDouble();

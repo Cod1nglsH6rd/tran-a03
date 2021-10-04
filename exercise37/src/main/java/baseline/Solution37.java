@@ -1,7 +1,19 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 package baseline;
 
 import java.util.Scanner;
-
+/*
+Ask for inputs
+    Min length
+    Number of special characters
+    Number of numerical chars
+Have an array of possible characters
+Randomly pick them and combine them
+Output
+ */
 public class Solution37 {
 
     private static final Scanner input = new Scanner(System.in);

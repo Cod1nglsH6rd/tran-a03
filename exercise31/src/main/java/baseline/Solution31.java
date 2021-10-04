@@ -1,7 +1,16 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 package baseline;
-
-import java.util.Scanner;
-
+/*
+Ask for inputs
+    Age
+    Resting Pulse
+Verify it is numbers
+Loop the calculation and output to create and pattern of output
+Have - and | to keep it organized
+ */
 public class Solution31 {
     public static void main(String args[])
     {

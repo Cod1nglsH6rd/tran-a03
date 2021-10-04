@@ -1,5 +1,5 @@
 /*
- *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
  *  Copyright 2021 Gialam Tran
  */
 
@@ -7,9 +7,8 @@ package Baseline;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.Arrays;
 
-public class passwordStrengthIndicator {
+public class passwordStrength {
 
     public static boolean onlyNumbers(char[] chars)
     {
@@ -75,22 +74,22 @@ public class passwordStrengthIndicator {
         char [] charArray = password.toCharArray();
         if(password.length() < 8)
         {
-            if(hasOnlyNumbers(charArray))
+            if(onlyNumbers(charArray))
             {
                 strength = "very weak";
             }
-            else if(hasOnlyCharacters(charArray))
+            else if(onlyCharacters(charArray))
             {
                 strength = "weak";
             }
         }
         else
         {
-            if(!hasSpecialCharacters(password) && getNumberCount(charArray) >= 1 && getCharCount(charArray) > 0)
+            if(!specialCharacters(password) && getNumCount(charArray) >= 1 && getCharCount(charArray) > 0)
             {
                 strength = "strong";
             }
-            else if(hasSpecialCharacters(password))
+            else if(specialCharacters(password))
             {
                 strength = "very strong";
             }

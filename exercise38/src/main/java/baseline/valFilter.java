@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 package baseline;
 
 import java.util.Scanner;
@@ -23,7 +27,6 @@ public class valFilter {
 
     public static int [] filterEvenNumbers(int[] oldVals)
     {
-        int [] bufferValues = new int[oldVals.length];
         int evenCount = 0;
         //iterates through and generates count of even numbers
         for (int oldVal : oldVals) {
